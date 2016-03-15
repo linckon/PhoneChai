@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneChai.Repository", "Pho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneChai.Service", "PhoneChai.Service\PhoneChai.Service.csproj", "{4EAF6128-33D7-4984-9E5A-0C798288484E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneChai.WebApp", "PhoneChai.WebApp\PhoneChai.WebApp.csproj", "{1BFB65BB-7F93-47AA-B69D-9B1C38373854}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{4EAF6128-33D7-4984-9E5A-0C798288484E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EAF6128-33D7-4984-9E5A-0C798288484E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EAF6128-33D7-4984-9E5A-0C798288484E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BFB65BB-7F93-47AA-B69D-9B1C38373854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BFB65BB-7F93-47AA-B69D-9B1C38373854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BFB65BB-7F93-47AA-B69D-9B1C38373854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BFB65BB-7F93-47AA-B69D-9B1C38373854}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,5 +63,6 @@ Global
 		{E80FF5B2-AB33-473D-92A8-1DC276C58D4A} = {EE8089FE-AB53-4FCA-AA52-D043E97A45C5}
 		{774EFAD1-AF63-402C-9DFE-E92DFF63779C} = {06A20181-BD23-4BC6-BCE1-B225C31C6380}
 		{4EAF6128-33D7-4984-9E5A-0C798288484E} = {BD4B9EAA-5A9E-47EA-A88D-2EE70CAC6208}
+		{1BFB65BB-7F93-47AA-B69D-9B1C38373854} = {3ECAEC35-E6B9-4A1C-9688-202ACB199AAD}
 	EndGlobalSection
 EndGlobal
