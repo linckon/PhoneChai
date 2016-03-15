@@ -11,8 +11,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Repository", "03 Reposit
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Model", "04 Model", "{EE8089FE-AB53-4FCA-AA52-D043E97A45C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneChai.Model", "PhoneChai.Model\PhoneChai.Model.csproj", "{47F7D005-9193-4BA7-B913-E5BA390EEEC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneChai.RequestModel", "PhoneChai.RequestModel\PhoneChai.RequestModel.csproj", "{2E222FC5-C8BD-4E56-AA3F-4A38381837FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneChai.ViewModel", "PhoneChai.ViewModel\PhoneChai.ViewModel.csproj", "{E80FF5B2-AB33-473D-92A8-1DC276C58D4A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47F7D005-9193-4BA7-B913-E5BA390EEEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F7D005-9193-4BA7-B913-E5BA390EEEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F7D005-9193-4BA7-B913-E5BA390EEEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F7D005-9193-4BA7-B913-E5BA390EEEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E222FC5-C8BD-4E56-AA3F-4A38381837FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E222FC5-C8BD-4E56-AA3F-4A38381837FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E222FC5-C8BD-4E56-AA3F-4A38381837FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E222FC5-C8BD-4E56-AA3F-4A38381837FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E80FF5B2-AB33-473D-92A8-1DC276C58D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80FF5B2-AB33-473D-92A8-1DC276C58D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80FF5B2-AB33-473D-92A8-1DC276C58D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80FF5B2-AB33-473D-92A8-1DC276C58D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47F7D005-9193-4BA7-B913-E5BA390EEEC1} = {EE8089FE-AB53-4FCA-AA52-D043E97A45C5}
+		{2E222FC5-C8BD-4E56-AA3F-4A38381837FC} = {EE8089FE-AB53-4FCA-AA52-D043E97A45C5}
+		{E80FF5B2-AB33-473D-92A8-1DC276C58D4A} = {EE8089FE-AB53-4FCA-AA52-D043E97A45C5}
 	EndGlobalSection
 EndGlobal
